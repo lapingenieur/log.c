@@ -15,6 +15,8 @@ log_debug(const char *fmt, ...);
 log_info(const char *fmt, ...);
 log_warn(const char *fmt, ...);
 log_error(const char *fmt, ...);
+log_user_error(const char *fmt, ...);
+log_intern(const char *fmt, ...);
 log_fatal(const char *fmt, ...);
 ```
 
